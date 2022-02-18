@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* file part*/
+.nav{
+    margin-bottom: 60px !important;
+}
+.file-name{
+    max-width: 510px;
+    margin:auto;
+}
+.file-name li a{
+    color: #505050;
+    font-size: 14px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+}
+ .nav-link:hover{
+    color: unset !important;
+}
+.file-name ul li a:hover{
+    border-bottom: 2px solid #ffe400;
+}
+/* Row part*/
+.row-1{
+    margin-bottom: 30px;
+}
+.row-2{
+    margin-bottom: 50px;
+}
+/* overlay Start*/
+.image .overlay{
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    background-color: rgba(251,227,21, 0.85);
+    width: 350px;
+    height: 350px;
+    color: #505050;
+    flex-direction: column;
+    opacity: 0; 
+    transition: opacity .25s;
+}
+.image .overlay:hover{
+    opacity: .95;
+}
+.overlay a:hover{
+    color: unset !important;
+}
+
+.overlay h2{
+    font-size: 18px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 50px;
+    
+}
+.overlay h3{
+    font-size: 18px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #505050;
+}
+.overlay p{
+    font-size: 16px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    max-width: 285px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 85px;
+    color: #505050;
+}
+.overlay a{
+    font-size: 14px;
+    font-family: 'proxima-nova', sans-serif;
+    text-decoration: none;
+    color: #505050;
+    font-weight: 700;
+    margin-top: -25px;
+    margin-left: 30px;
+    display: block;
+}
+.image{
+    position: relative;
+    width: 350px;
+   
+}
+.image img{
+    display: block;
+    width: 350px;
+}
+/* Overlay End*/
+/* see more work*/
+.more-option{
+    width: 100px;
+    height: 50px;
+    background-color: #ffe400;
+    margin: auto;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 35px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    top: -35px;
+    left: 30px;
+}
+/*hover none*/
+.box a:hover{
+    color: unset !important;
+}
+@media (max-width:768px){
+    .col-md-4{
+        width: 50.333% !important;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:792px){
+    .col-md-4{
+        width: 50.333% !important;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:375px) and (max-width:700px) {
+    .file-name li a{
+        font-size: 9px;
+    }
+}
